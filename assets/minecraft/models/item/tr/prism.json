@@ -1,33 +1,33 @@
 {
-    "parent": "item/generated",
+    "parent": "item/handheld",
     "textures": {
-        "layer0": "item/diamond_sword"
+        "layer0": "item/tr/prism"
     },
     "display": {
         "thirdperson_righthand": {
-            "rotation": [ 0, -90, 55 ],
-            "translation": [ 0, 7.0, 0.5 ],
-            "scale": [ 1.3, 1.3, 0.85 ]
+            "rotation": [ 0, -90, 15 ],
+            "translation": [ 0, 3, 1.5 ],
+            "scale": [ 0.65, 0.65, 0.85 ]
         },
         "thirdperson_lefthand": {
-            "rotation": [ 0, 90, -55 ],
-            "translation": [ 0, 7.0, 0.5 ],
-            "scale": [ 1.3, 1.3, 0.85 ]
+            "rotation": [ 0, 90, -15 ],
+            "translation": [ 0, 3, 1.5 ],
+            "scale": [ 0.65, 0.65, 0.85 ]
         },
         "firstperson_righthand": {
             "rotation": [ 0, -90, 25 ],
             "translation": [ 1.13, 4.2, 1.13 ],
-            "scale": [ 1, 1, 0.68 ]
+            "scale": [ 0.68, 0.68, 0.68 ]
         },
         "firstperson_lefthand": {
             "rotation": [ 0, 90, -25 ],
             "translation": [ 1.13, 4.2, 1.13 ],
-            "scale": [ 1, 1, 0.68 ]
+            "scale": [ 0.68, 0.68, 0.68 ]
         },
         "ground": {
             "rotation": [ 0, 0, 0 ],
             "translation": [ 0, 2, 0],
-            "scale":[ 1, 1, 1 ]
+            "scale":[ 0.6, 0.6, 0.6 ]
         },
         "head": {
             "rotation": [ 0, 180, 0 ],
@@ -36,10 +36,10 @@
         },
         "fixed": {
             "rotation": [ 0, 180, 0 ],
-            "scale": [ 1.2, 1.2, 1 ]
+            "scale": [ 1, 1, 1 ]
         },
         "gui": {
-            "scale": [ 1.2, 1.2, 1 ]
+            "scale": [ 1, 1, 1 ]
         }
     }
 }
